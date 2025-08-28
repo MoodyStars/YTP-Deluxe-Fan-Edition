@@ -1,0 +1,17 @@
+```markdown
+Assets folder
+=============
+
+This project expects optional user-provided assets for some effects. Create the following structure under the project root:
+
+assets/
+  memes/          (images, gifs, short videos and audio clips for Meme Injection)
+  sounds/         (audio clips for Add Random Sound)
+  rainbow.png     (a rainbow overlay image for RainbowOverlay effect)
+  xp_sounds/      (Windows XP sounds for Classic Nostalgia Mode)
+
+Notes:
+- Overlays should have transparent backgrounds (PNG or GIF) to look best.
+- Audio samples can be mp3, wav, ogg, or m4a.
+- Some effects are placeholders and will look best if you populate assets with content.
+```
