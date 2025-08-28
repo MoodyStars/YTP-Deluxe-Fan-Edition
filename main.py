@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Entrypoint for YTP+ Deluxe Edition prototype.
+Entry point with GUI or batch CLI.
+
+This is a small wrapper; batch CLI already supported (see earlier main.py).
+No change to CLI semantics here; leaving as-is. Run "python main.py --help" for options.
 """
 import sys
 from gui import YTPPlusGUI
